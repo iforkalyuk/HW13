@@ -1,0 +1,22 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0px;
+}
+
+li{
+    padding: 20px 50px;
+    display: inline-block;
+    background-color: black;
+    background: linear-gradient(180deg, black 90%, #0099ff 10%)
+}
+li:hover{
+    background-color: #0099ff;
+}
+
+a{
+    font-size: 14px;
+}
