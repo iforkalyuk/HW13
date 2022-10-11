@@ -10,11 +10,7 @@
 li{
     padding: 20px 50px;
     display: inline-block;
-    background-color: black;
     background: linear-gradient(180deg, black 90%, #0099ff 10%)
-}
-li:hover{
-    background-color: #0099ff;
 }
 
 a{
@@ -22,18 +18,45 @@ a{
     color: white;
     font: bold;
 }
-a:visited
+
+a:visited {
     color: white;
 }
-.item{
+
+.item li{
     position: relative;
 }
-.sub-item{
+
+.sub-item2{
     position: absolute;
     display: none;
-    background-color: #0099ff; 
 }
-li:hover .sub-item {
-    display: block;
 
+.sub-item li, .sub-item2 li, .sub-item3 li{
+    background: #0099ff;
+    border: solid 2px blue;
+    border-bottom: none;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    font: bold;
+    background: #0099ff; 
+}
+.sub-item :first-child{
+    margin-top: 20px;
+}
+.sub-item :last-child{
+    border-bottom: solid 2px blue;
+}
+li:hover {
+    background: #0099ff;
+    border: solid 2px blue;
+}
+.item2:hover .sub-item2 {
+    display: block;
+}
+.sub-item1:hover .sub-item1-1{
+    display: block;
+    margin-top: -60px;
+    margin-left: 102px;
 }
