@@ -19,4 +19,21 @@ li:hover{
 
 a{
     font-size: 14px;
+    color: white;
+    font: bold;
+}
+a:visited
+    color: white;
+}
+.item{
+    position: relative;
+}
+.sub-item{
+    position: absolute;
+    display: none;
+    background-color: #0099ff; 
+}
+li:hover .sub-item {
+    display: block;
+
 }
